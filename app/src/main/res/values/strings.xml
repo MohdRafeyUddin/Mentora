@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">MyAttendance</string>
+    <string name="login_title">Login</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="btn_login">Login</string>
+    <string name="btn_register">Register</string>
+    <string name="student_dashboard">Student Dashboard</string>
+    <string name="faculty_dashboard">Faculty Dashboard</string>
+    <string name="admin_dashboard">Admin Dashboard</string>
+
+    <string name="add_user_title">Add User</string>
+    <string name="hint_full_name">Full Name</string>
+    <string name="btn_create_user">Create User</string>
+    <string name="btn_add_student">Add Student</string>
+    <string name="btn_add_faculty">Add Faculty</string>
+</resources>

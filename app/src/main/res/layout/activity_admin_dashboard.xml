@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/tvAdminTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/admin_dashboard"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/btnAddStudent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_add_student"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/btn_green_bg"
+        android:textColor="@color/white"
+        android:padding="12dp"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/btnAddFaculty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_add_faculty"
+        android:background="@drawable/btn_green_bg"
+        android:textColor="@color/white"
+        android:padding="12dp"
+        android:textAllCaps="false" />
+
+</LinearLayout>
